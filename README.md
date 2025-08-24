@@ -1,4 +1,4 @@
-# 📍 Geolocation Manager for Vue
+# 📍 vue-haversine-geolocation
 
 [![npm version](https://img.shields.io/npm/v/%40rodolphe37%2Fvue-haversine-geolocation.svg)](https://www.npmjs.com/package/@rodolphe37/vue-haversine-geolocation)
 ![downloads](https://img.shields.io/npm/dt/%40rodolphe37%2Fvue-haversine-geolocation?color=blue&logo=npm&logoColor=blue)
