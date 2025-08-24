@@ -6,7 +6,7 @@
   "author": "Rodolphe AUGUSTO",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your/repo.git"
+    "url": "git+https://github.com/rodolphe37/vue-haversine-geolocation"
   },
   "type": "module",
   "main": "dist/index.cjs",
