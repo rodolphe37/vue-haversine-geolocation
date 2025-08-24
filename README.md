@@ -4,17 +4,32 @@
 ![downloads](https://img.shields.io/npm/dt/%40rodolphe37%2Fvue-haversine-geolocation?color=blue&logo=npm&logoColor=blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-
 A **Vue 3 composable** to manage a geolocation history, using the **Haversine formula** to filter out nearby points and optimize tracking.
 
 ![react-haversine-geolocation demo](demo/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f656d6470726f2f696d6167652f75706c6f61642f76313636313234353234392f64656d6f5f62636d7a6d652e676966.gif)
-
 
 ## 🚀 Installation
 
 ```bash
 npm install @rodolphe37/vue-haversine-geolocation
 ```
+
+---
+
+## ✨ Features
+
+- 📍 Calculate distances in meters using the **Haversine formula**
+- 🔄 Manage a geolocation history
+- 🎯 Automatically filter out points that are too close to the previous one
+- 💾 Flexible persistence (via `localStorage`, `SQLite`, etc.)
+
+---
+
+## 🖥️ Live demo :
+
+https://vue-geolocation-test.netlify.app/
+
+---
 
 ## 🔧 Utilisation
 
