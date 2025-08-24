@@ -73,7 +73,7 @@ function addDummy() {
   <div>
     <button @click="addDummy">Ajouter Paris</button>
     <ul>
-      <li v-for="loc in history.value.locations" :key="loc.timestamp">
+      <li v-for="loc in history.locations" :key="loc.timestamp">
         {{ loc.coords.latitude }}, {{ loc.coords.longitude }} @
         {{ new Date(loc.timestamp).toLocaleString() }}
       </li>
@@ -112,7 +112,7 @@ import { useGeolocationManager } from "@rodolphe37/vue-haversine-geolocation";
 
 export function useLastLocation(options) {
   const { history, ...rest } = useGeolocationManager(options);
-  const last = computed(() => history.value.locations.at(-1) ?? null);
+  const last = computed(() => history.locations.at(-1) ?? null);
   return { last, history, ...rest };
 }
 ```

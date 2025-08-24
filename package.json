@@ -1,6 +1,6 @@
 {
   "name": "@rodolphe37/vue-haversine-geolocation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Composable Vue 3 to manage geolocation history with distance threshold.",
   "license": "MIT",
   "author": "Rodolphe AUGUSTO",
