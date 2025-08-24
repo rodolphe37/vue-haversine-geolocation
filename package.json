@@ -1,0 +1,45 @@
+{
+  "name": "@rodolphe37/vue-haversine-geolocation",
+  "version": "1.0.0",
+  "description": "Composable Vue 3 to manage geolocation history with distance threshold.",
+  "license": "MIT",
+  "author": "Rodolphe AUGUSTO",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your/repo.git"
+  },
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest --config tsconfig.node.json",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "vue": ">=3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "vue": "^3.5.19"
+  }
+}
