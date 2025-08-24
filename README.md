@@ -4,7 +4,11 @@
 ![downloads](https://img.shields.io/npm/dt/%40rodolphe37%2Fvue-haversine-geolocation?color=blue&logo=npm&logoColor=blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-A **Vue 3 composable** to manage geolocation history with a configurable distance threshold.
+
+A **Vue 3 composable** to manage a geolocation history, using the **Haversine formula** to filter out nearby points and optimize tracking.
+
+![react-haversine-geolocation demo](demo/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f656d6470726f2f696d6167652f75706c6f61642f76313636313234353234392f64656d6f5f62636d7a6d652e676966.gif)
+
 
 ## 🚀 Installation
 
