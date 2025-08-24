@@ -71,7 +71,7 @@ function addDummy() {
 
 <template>
   <div>
-    <button @click="addDummy">Ajouter Paris</button>
+    <button @click="addDummy">add new position</button>
     <ul>
       <li v-for="loc in history.locations" :key="loc.timestamp">
         {{ loc.coords.latitude }}, {{ loc.coords.longitude }} @
