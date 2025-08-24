@@ -1,6 +1,6 @@
 {
   "name": "@rodolphe37/vue-haversine-geolocation",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "Composable Vue 3 to manage geolocation history with distance threshold.",
   "license": "MIT",
   "author": "Rodolphe AUGUSTO",
@@ -8,6 +8,17 @@
     "type": "git",
     "url": "git+https://github.com/rodolphe37/vue-haversine-geolocation"
   },
+  "bugs": {
+    "url": "https://github.com/rodolphe37/vue-haversine-geolocation/issues"
+  },
+  "homepage": "https://github.com/rodolphe37/vue-haversine-geolocation#readme",
+  "keywords": [
+    "vue",
+    "geolocation",
+    "haversine",
+    "tracking",
+    "web"
+  ],
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
